@@ -25,3 +25,30 @@ lib/
 │   ├── detail_screen.dart    # Film özet, puan ve detayları ekranı [cite: 47]
 │   └── watchlist_screen.dart # İzleme listesi görünümü ve senkronizasyon simülasyonu [cite: 48]
 └── main.dart                 # Uygulama başlangıcı ve Route rotaları [cite: 22, 35]
+
+
+## ⚙️ Projeyi Çalıştırma Adımları
+
+Bu projeyi yerel bilgisayarınızda sorunsuz bir şekilde ayağa kaldırmak için aşağıdaki adımları sırasıyla takip edebilirsiniz:
+
+### Ön Gereksinimler
+- Bilgisayarınızda **Flutter SDK** (v3.41.9 veya üzeri) kurulu olmalıdır.
+- Aktif bir emülatör/simülatör (Android/iOS) veya tarayıcı/masaüstü çalışma ortamı hazır olmalıdır.
+
+### 1. Projeyi Klonlayın
+Öncelikle projeyi GitHub üzerinden bilgisayarınıza indirin ve proje klasörünün içine girin:
+```bash
+git clone [https://github.com/aycatapaN/cinarchive-flutter.git](https://github.com/aycatapaN/cinarchive-flutter.git)
+cd cinarchive-flutter
+
+2. Bağımlılıkları Yükleyin
+Bash
+flutter pub get
+
+3. Cihazınızı Kontrol Edin
+Bash
+flutter devices
+
+4. Uygulamayı Başlatın
+Bash
+flutter run
